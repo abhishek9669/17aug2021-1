@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .p{
+                width: 200px;
+                height: 200px;
+                background: rgb(30, 199, 81);
+                margin: 100px auto;
+
+               animation-name: abc;
+               animation-duration: 2s;
+               animation-timing-function: ease-in;
+               animation-iteration-count: infinite;
+
+            }
+            @keyframes abc{
+                0%{
+                    transform: rotateZ(0deg);
+                }
+                100%{
+                    transform: rotateZ(360deg);
+                }
+            }
+            .p1{
+                width: 200px;
+                height: 200px;
+                background: rgb(9, 12, 226);
+                margin: 100px auto;
+
+               animation-name: abc;
+               animation-duration: 2s;
+               animation-timing-function: ease-in;
+               animation-iteration-count: infinite;
+
+            }
+            @keyframes abc{
+                0%{
+                    transform: rotateZ(0deg);
+                }
+                100%{
+                    transform: rotateZ(360deg);
+                }
+            }
+
+            .p2{
+                
+          
+              width: 200px;
+              height: 200px;
+              background: orange; 
+            
+              animation-name:abc3;
+              animation-duration: 2s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+            }
+
+            @keyframes abc3{
+                0%{
+                    transform: translateX(0px)
+                }
+                25%{
+                    background: rgb(209, 10, 53);
+                }
+                50%{
+                    background: red;  
+                }
+                75%{
+                    background: rgb(17, 145, 184);
+                }
+                100%{
+                    transform: translateX(1300px)
+                }
+            }
+            body{
+                width: 1000px;
+                height: 1000px;
+                border: crimson;
+                background-color: cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="p"></div></div>
+        <div class="p1"></div></div>
+        <div class="p2"></div></div>
+        <div class="p3"></div></div>
+        
+    </body>
+</html>
